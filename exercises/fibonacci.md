@@ -1,4 +1,4 @@
-## Fibonacci Sequence
+# Fibonacci Sequence
 
 Write some code to generate the Fibonacci sequence.
 
