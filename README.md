@@ -21,6 +21,15 @@ You should use this repository as a reference.
 9. Organise tests to reflect organisation of model code
 10. **Maintain your tests**
 
+### Users & Their Goals
+
+It's important that when you develop software for someone you get to talk with the person (or people) who will use the software.
+
+Talk with them to figure out what are the requirements and make sure the language you use in your features
+are common words known to your clients business, if you can't come up with a name for a specific feature make sure
+you approach your client and you work together to come up with a meaningful name for that feature,
+never come up with your own names, **the software should adapt to the business not the business to the software**.
+
 
 ## Test Doubles
 
