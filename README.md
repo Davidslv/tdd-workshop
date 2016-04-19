@@ -68,7 +68,31 @@ An interface with expectations set for the test (implementation generated at run
 
 ### Dummy
 
-A null or dummy object to be used as parameter value when test doesn't care
+A null or dummy object to be used as parameter value when your code doesn't care about.
+
+In the following example we have a `Consumer` class that receives a `stats_client` that we don't care
+which one is it, as long as it has an `#increment` method.
+
+```ruby
+class Consumer
+
+  def initialize(name, stats_client: NullStatClient.new)
+    @name = name
+    @stats_client = stats_client
+  end
+
+  def run
+    @stats_client.increment(@name)
+  end
+
+  private
+
+  class NullStatClient
+    def increment(key)
+    end
+  end
+end
+```
 
 
 ## Contributing
