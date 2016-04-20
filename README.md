@@ -58,13 +58,20 @@ _Test double_ is a generic term for any object that stands in for a real object 
 
 Class with test-specific implementation (hard-coded responses)
 
+[[read more](https://relishapp.com/rspec/rspec-mocks/v/2-4/docs/method-stubs/stub-with-a-simple-return-value)]
+
+
 ### Fake
 
 A full implementation for test purposes (e.g. in-memory database)
 
+[[read more](http://blog.arkency.com/2015/12/in-memory-fake-adapters/)]
+
 ### Mock
 
 An interface with expectations set for the test (implementation generated at runtime by mocking framework)
+
+[[read more](https://www.relishapp.com/rspec/rspec-mocks/docs)]
 
 ### Dummy
 
