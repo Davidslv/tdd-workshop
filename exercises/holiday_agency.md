@@ -4,7 +4,7 @@ Write some code that will tell us what villas are available on weeks where fligh
 
 **Use stubs to act as facades to external systems.**
 
-### Villa booking system
+### Villa booking system
 
 Tell it the week and year (e.g. week 26, 2011) and it will return an array of villa names that are available
 
